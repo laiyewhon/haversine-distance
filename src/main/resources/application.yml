@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/postcode
+    username: postcode
+    password: 30TCnIUjKvsMdb5vduxREw==
+
+flyway:
+  locations: 'classpath:db/migration'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
