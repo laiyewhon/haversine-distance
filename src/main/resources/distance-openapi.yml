@@ -107,9 +107,10 @@ components:
         distance:
           type: number
           format: double
-          example: km
+          example: 0.81
         unit:
           type: string
+          example: km
         postcodeA:
           type: object
           $ref: '#/components/schemas/Postcode'
